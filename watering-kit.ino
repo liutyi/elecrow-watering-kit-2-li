@@ -417,7 +417,7 @@ void drawTH(void)
   itoa(moisture4_value, moisture4_value_temp, 10);
   u8g2.setFont(u8g2_font_8x13_tr);
   u8g2.setCursor(9, 60);
-  u8g2.print("LEMON (1-3)");
+  u8g2.print("A0  A1  A2  A3");
   if (moisture1_value < 10)
   {
     //u8g2.setCursor(A + 14, 45 );
@@ -482,8 +482,8 @@ void drawTH(void)
   //u8g2.print(moisture3_value);
   u8g2.setCursor(C + 23, 45);
   u8g2.print("%");
-  u8g2.setCursor(100, 60);
-  u8g2.print("ORC");
+  //u8g2.setCursor(100, 60);
+  //u8g2.print("A3");
   if (moisture4_value < 10)
   {
     //u8g2.setCursor(D + 14, 45 );
