@@ -1,13 +1,12 @@
-# elecrow-watering-kit-2-li
-Custom Firmware for Elecrow Watering Kit 2.0/2.1 (Board: Arduino Leonardo)
+# Custom Firmware for Elecrow Watering Kit 2.1
 
-Product: https://www.elecrow.com/arduino-automatic-smart-plant-watering-kit.html
-Elecrow firmware: https://www.elecrow.com/download/watering_kit.zip
+I purchased the (Elecrow Watering Kit 2.1)[https://www.elecrow.com/arduino-automatic-smart-plant-watering-kit.html] 
+from Amazon. The controller board for this kit has an integrated
+Arduino Leonardo.
 
-https://wiki.liutyi.info/display/ARDUINO/Arduino+Automatic+Smart+Plant+Watering+Kit+2.0
-https://wiki.liutyi.info/display/ARDUINO/Custom+firmware+for+Elecrow+Watering+Kit
+The included firmware (and the firmware found on the Elecrow site) has issues, notably graphical gitches.
 
-watering-kit.ino - for Hardware version 2.0, 
-watering-kit-hw2_1.ino - Hardware version 2.1 
+I found the (liutyi version of the firmware)[https://wiki.liutyi.info/display/ARDUINO/Custom+firmware+for+Elecrow+Watering+Kit] that fixed these
+gitches, so I've forked their code for any furuture customizations.
 
-hw v2.1 need external programing using ICSP contacts on board. USB flashing not work anymore (
+The original Elecrow code can be found in the `orig/` folder.
